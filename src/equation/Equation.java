@@ -1,4 +1,3 @@
-package equation;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,10 +24,7 @@ public class Equation {
 		
 		delta = (Math.pow(b, 2)) - (4 * a * c);
 		
-		
 		System.out.printf("%nO valor do delta deu: %.0f%n%n", delta);
-		
-		
 		
 		x1 = (-b + Math.sqrt(delta)) / (2 * a);
 		x2 = (-b - Math.sqrt(delta)) / (2 * a);
